@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestData>
+  <E2ETest>
+    <PROJECTNAME>289339\SQLi</PROJECTNAME>
+    <TESTTYPE>QUERY</TESTTYPE>
+    <TESTOBJECTIVE>594</TESTOBJECTIVE>
+    <LANGUAGE>Java</LANGUAGE>
+    <RESULTS>2</RESULTS>
+    <RESULTSLIST>
+      <RESULT
+        InitialFileName="\FindSpringQueryDBIn.java"
+        InitialName="&quot;&quot;UserName&quot;&quot;"
+        InitialLine="68"
+        InitialColumn="41"
+        InitialLength="10"
+        InitialNodeId="518"
+        EndFileName="\FindSpringQueryDBIn.java"
+        EndName="executeQuery"
+        EndLine="74"
+        EndColumn="37"
+        EndLength="1"
+        EndNodeId="570" />
+      <RESULT
+        InitialFileName="\FindSpringQueryDBIn.java"
+        InitialName="request"
+        InitialLine="64"
+        InitialColumn="41"
+        InitialLength="7"
+        InitialNodeId="648"
+        EndFileName="\FindSpringQueryDBIn.java"
+        EndName="executeQuery"
+        EndLine="74"
+        EndColumn="37"
+        EndLength="1"
+        EndNodeId="570" />
+    </RESULTSLIST>
+    <QAANNOTATION></QAANNOTATION>
+    <USEDEFAULTCONFIG>False</USEDEFAULTCONFIG>
+    <VERSIONNUMBER>9.6.3</VERSIONNUMBER>
+    <DESCRIPTION>[Escalation][Java] -  FP for Java_High_Risk.SQL_Injection(). "getResultList"/"getSingleResult" flagged as SQLi sink regardless of what class it belongs to</DESCRIPTION>
+    <PBIBUGID>289339</PBIBUGID>
+    <TAGS>committed.2023.21;SastAutomation</TAGS>
+  </E2ETest>
+</TestData>
